@@ -144,15 +144,15 @@
 }
 
 .grid>div:hover {
-   transform: scale(1.05);
+   transform: scale(0.5);
 }
 
 .grid>div1:hover {
-   transform: scale(1.05);
+   transform: scale(0.5);
 }
 
 .grid>div2:hover {
-   transform: scale(1.05);
+   transform: scale(0.5);
 }
 
 .ts {
@@ -162,7 +162,7 @@
 }
 
 .box {
-   background-color: rgb(219, 188, 147);
+   background-color: rgb(157, 240, 243);
    width: 350px;
    height: 500px;
    margin-left: 200px;
@@ -170,9 +170,18 @@
    text-align: center;
    padding: 10px;
    margin-bottom: 10px;
+   border: 5px;
+   border-color: rgb(14, 41, 59);
+   font-size: larger;
+   
 
 }
-
+.box>button{
+   height: 15%;
+   width: 90%;
+   margin-top: 80%;
+   font-size: larger;
+}
 .side {
    display: inline-block;
    margin-bottom: 100px;
