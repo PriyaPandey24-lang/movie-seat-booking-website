@@ -1,0 +1,190 @@
+* {
+   margin: 0;
+   padding: 0;
+   background-color: #d2d1d1;
+}
+
+.navbar {
+   padding-left: 130px;
+
+   margin-top: 10px;
+   display: flex;
+   column-gap: 40px;
+}
+
+.nav {
+   background-color: rgb(126, 149, 177);
+   ;
+}
+.up{
+   padding: 5px;
+}
+
+.pic {
+   background-color: rgb(241, 232, 221);
+   margin: 40px;
+   padding: 10px;
+   overflow: hidden;
+   height: 60vh;
+   margin-bottom: 100px;
+
+}
+
+.img {
+
+   display: flex;
+   animation-name: movie;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+}
+
+.h {
+   padding: 5px;
+}
+
+.h:hover {
+   transform: scale(1.05);
+   opacity: 60%;
+
+}
+
+@keyframes movie {
+   from {}
+
+   to {
+      transform: translateX(-520px);
+      transition-timing-function: linear;
+   }
+}
+
+
+
+.foot {
+   display: flex;
+   justify-content: center;
+   column-gap: 50px;
+   position: fixed;
+   z-index: 10000000;
+   background-color: rgb(126, 149, 177);
+   margin-top: 75px;
+   width: 100vw;
+}
+
+.foot>div {
+   background-color: rgb(126, 149, 177);
+}
+
+.trapezoid {
+   width: 550px;
+   height: 200px;
+   background: white;
+   clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+   text-decoration-color: black;
+   margin-left: 130px;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 30px;
+
+}
+
+.sec {
+   height: 78vh;
+   width: 100wh;
+   padding-top: 65px;
+   display: flex;
+   padding-bottom: 35px;
+   
+
+}
+.plate {
+   display: flex;
+   padding-left: 100px;
+}
+.grid {
+   display: grid;
+   grid-template-columns: 40px 40px 40px;
+
+   column-gap: 15px;
+   row-gap: 10px;
+   padding-top: 50px;
+   padding-left: 40px;
+}
+
+.grid>div {
+   background-color: rgb(125, 143, 158);
+   border-radius: 20px;
+   height: 32px;
+border: 5px;
+border-color: black;
+   padding-top: 10px;
+   text-align: center;
+}
+
+
+.grid>div1 {
+   background-color: antiquewhite;
+   border-radius: 20px;
+   height: 32px;
+   padding-top: 10px;
+  text-align: center;
+  border: 2px;
+border-color: black;
+}
+
+.grid>div2 {
+   background-color: rgb(164, 164, 207);
+   border-radius: 20px;
+   height: 32px;
+   padding-top: 10px;
+   text-align: center;
+   border: 2px;
+border-color: black;
+}
+
+.ts {
+   width: 50vw;
+   text-align: center;
+   padding: 10px;
+}
+
+.box {
+   background-color: rgb(219, 188, 147);
+   width: 350px;
+   height: 500px;
+   margin-left: 200px;
+   border-radius: 20px;
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 10px;
+   
+}
+
+.side {
+   display: inline-block;
+   margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+   display: flex;
+   justify-content: center;
+   column-gap: 50px;
+   z-index: 1;
+   background-color: rgb(126, 149, 177);
+    
+   width: 100vw;
+}
+.footer>div{
+   background-color: rgb(125, 143, 158);
+}
