@@ -16,7 +16,8 @@
    background-color: rgb(126, 149, 177);
    ;
 }
-.up{
+
+.up {
    padding: 5px;
 }
 
@@ -94,7 +95,7 @@
    padding-top: 65px;
    display: flex;
    padding-bottom: 35px;
-   
+
 
 }
 .plate {
@@ -115,8 +116,8 @@
    background-color: rgb(125, 143, 158);
    border-radius: 20px;
    height: 32px;
-border: 5px;
-border-color: black;
+   border: 5px;
+   border-color: black;
    padding-top: 10px;
    text-align: center;
 }
@@ -127,9 +128,9 @@ border-color: black;
    border-radius: 20px;
    height: 32px;
    padding-top: 10px;
-  text-align: center;
-  border: 2px;
-border-color: black;
+   text-align: center;
+   border: 2px;
+   border-color: black;
 }
 
 .grid>div2 {
@@ -139,7 +140,19 @@ border-color: black;
    padding-top: 10px;
    text-align: center;
    border: 2px;
-border-color: black;
+   border-color: black;
+}
+
+.grid>div:hover {
+   transform: scale(1.05);
+}
+
+.grid>div1:hover {
+   transform: scale(1.05);
+}
+
+.grid>div2:hover {
+   transform: scale(1.05);
 }
 
 .ts {
@@ -157,7 +170,7 @@ border-color: black;
    text-align: center;
    padding: 10px;
    margin-bottom: 10px;
-   
+
 }
 
 .side {
@@ -174,17 +187,16 @@ border-color: black;
 
 
 
-
-
-.footer{
+.footer {
    display: flex;
    justify-content: center;
    column-gap: 50px;
    z-index: 1;
    background-color: rgb(126, 149, 177);
-    
+
    width: 100vw;
 }
-.footer>div{
+
+.footer>div {
    background-color: rgb(125, 143, 158);
 }
