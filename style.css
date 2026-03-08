@@ -1,7 +1,7 @@
 * {
    margin: 0;
    padding: 0;
-   background-color: #d2d1d1;
+   background-color: #0f172a;
 }
 
 .navbar {
@@ -19,14 +19,22 @@
 
 .up {
    padding: 5px;
+   border-radius: 10px;
+   background-color: bisque;
+}
+
+.up:hover {
+   text-decoration-color: blue;
+   transform: scale(1.07);
 }
 
 .pic {
    background-color: rgb(241, 232, 221);
    margin: 40px;
-   padding: 10px;
+padding: 0.5%;
    overflow: hidden;
-   height: 60vh;
+   height: 58vh;
+   width: 95vw;
    margin-bottom: 100px;
 
 }
@@ -64,16 +72,20 @@
 .foot {
    display: flex;
    justify-content: center;
-   column-gap: 50px;
+   column-gap:30%;
    position: fixed;
    z-index: 10000000;
-   background-color: rgb(126, 149, 177);
+   background-color:#00B5D8;
    margin-top: 75px;
    width: 100vw;
+   height:3%;
+   
 }
 
 .foot>div {
-   background-color: rgb(126, 149, 177);
+   background-color:#00B5D8 ;
+   color: white;
+   text-decoration: double;
 }
 
 .trapezoid {
@@ -82,26 +94,33 @@
    background: white;
    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
    text-decoration-color: black;
-   margin-left: 130px;
+   margin-left:70px;
    text-align: center;
    padding-top: 30px;
    font-size: 30px;
+background-image:url(https://img.freepik.com/free-vector/cinema-room-background_1017-8728.jpg?semt=ais_rp_progressive&w=740&q=80) ;
+   filter: drop-shadow(10px 10px 20px rgba(218, 237, 230, 0.4));
+   
 
 }
 
 .sec {
-   height: 78vh;
-   width: 100wh;
-   padding-top: 65px;
+   height: 70vh;
+   width: 90vw;
+   padding-top:3%;
    display: flex;
-   padding-bottom: 35px;
+
+padding-bottom: 0%;
 
 
 }
-.plate {
+
+.plate {margin-bottom: 4%;
    display: flex;
-   padding-left: 100px;
+   margin-left:45px;
+   z-index: 1;
 }
+
 .grid {
    display: grid;
    grid-template-columns: 40px 40px 40px;
@@ -109,38 +128,40 @@
    column-gap: 15px;
    row-gap: 10px;
    padding-top: 50px;
-   padding-left: 40px;
+   padding-left:40px;
 }
 
 .grid>div {
-   background-color: rgb(125, 143, 158);
+   background-color: rgb(156, 199, 192);
    border-radius: 20px;
    height: 32px;
-   border: 5px;
-   border-color: black;
+   border: 2px solid rgb(199, 241, 226);
+   box-shadow: 3px 3px 20px rgba(141, 239, 211, 0.4);
    padding-top: 10px;
    text-align: center;
 }
 
 
 .grid>div1 {
-   background-color: antiquewhite;
+   background-color: rgb(251, 181, 89);
    border-radius: 20px;
    height: 32px;
    padding-top: 10px;
    text-align: center;
-   border: 2px;
-   border-color: black;
+   border: 2px solid blanchedalmond;
+   box-shadow: 5px 10px 20px rgba(251, 181,89, 0.4);
+   
 }
 
 .grid>div2 {
-   background-color: rgb(164, 164, 207);
+   background-color: rgb(124, 124, 215);
    border-radius: 20px;
    height: 32px;
    padding-top: 10px;
    text-align: center;
-   border: 2px;
-   border-color: black;
+   border: 2px solid rgb(204, 249, 251);
+   box-shadow: 3px 3px 20px rgba(134, 134, 242, 0.4);
+
 }
 
 .grid>div:hover {
@@ -154,58 +175,179 @@
 .grid>div2:hover {
    transform: scale(0.5);
 }
+#inf{
+   display: flex;
+   flex-direction: row;
+   column-gap: 5%;
+   margin-left:200px;
+   width: 100%;
+
+
+}
+
+#end {
+   background-color: rgb(233, 122, 52);
+   height: 100%;
+   width:80px;
+   padding: 1%;
+   border-radius: 20%;
+
+}
+
+#green {
+   background-color: rgb(77, 252, 153);
+   height: 100%;
+   width: 80px;
+   padding: 1%;
+   border-radius: 20%;
+}
+
+#blue {
+   background-color: rgb(148, 193, 252);
+   height: 100%;
+   width: 80px;
+   padding: 1%;
+   border-radius: 20%;
+}
 
 .ts {
-   width: 50vw;
+   width:350px;
+   margin-left: 200px;
    text-align: center;
    padding: 10px;
+   font-size: xx-large;
+   color: antiquewhite;
+   box-shadow: #242222;
+   margin-bottom: 0.5%;
+
+
 }
 
 .box {
-   background-color: rgb(157, 240, 243);
+   background-color: rgb(69, 168, 198);
    width: 350px;
-   height: 500px;
+   height: 460px;
    margin-left: 200px;
    border-radius: 20px;
    text-align: center;
    padding: 10px;
-   margin-bottom: 10px;
+   line-height: 200%;
+   border: 10px solid rgb(231, 235, 237);
+
+   box-shadow: 10px 10px 20px rgba(187, 217, 239, 0.4);
    border: 5px;
-   border-color: rgb(14, 41, 59);
+   border-color: rgb(75, 87, 95);
    font-size: larger;
-   
+
+
+
 
 }
-.box>button{
-   height: 15%;
-   width: 90%;
-   margin-top: 80%;
-   font-size: larger;
+
+.box::first-line {
+   text-decoration-line: underline;
+   lighting-color: rgb(111, 147, 147);
+   font-size: xx-large;
 }
+
+.box>button {
+   height: 15%;
+   width: 80%;
+   margin-top: 50%;
+
+   font-size: larger;
+   color: rgb(147, 184, 184);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-radius: 10%;
+
+}
+
+.box>button:hover {
+   color: aquamarine;
+
+}
+
 .side {
    display: inline-block;
-   margin-bottom: 100px;
+   margin-bottom: 0px;
+
+
 }
-
-
-
-
-
-
-
-
-
 
 .footer {
    display: flex;
    justify-content: center;
    column-gap: 50px;
    z-index: 1;
-   background-color: rgb(126, 149, 177);
-
-   width: 100vw;
+   background-color: #00B5D8;
+position: fixed;
+   width: 99.7vw;
+   margin-top: 7.5%;
+   bottom: 0px;
 }
 
 .footer>div {
-   background-color: rgb(125, 143, 158);
+   background-color:#00B5D8;
+   
 }
+@media only screen and (max-width:1400px){
+   .footer{
+      width: 100%;
+   }
+   .sec{
+      display: flex;
+      flex-direction:column;
+   }
+   .side{
+      margin-top:100px;
+   }
+}
+
+
+
+
+@media only screen and (max-width: 620px) {
+   .pic{
+      width:100vw;
+      
+   }
+   .img{
+      width:100%;
+   }
+   .foot{
+       width:100vw;
+   }
+}
+
+@media only screen and (max-width: 536px) {
+   .pic{
+      width:200vw;
+      
+   }
+   .img{
+      width:100%;
+   }
+   .foot{
+       width:220vw;
+   }
+}
+
+@media only screen and ( max-height:1400px){
+   .foot{
+      position:fixed;
+      bottom: 0px;
+   }
+   .img{
+      height: 100%;
+   }
+
+}
+
+@media only screen and ( min-height: 800px){
+      
+      
+   .pic{
+      height: 990vh;
+   }
+}
+
