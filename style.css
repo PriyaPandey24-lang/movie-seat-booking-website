@@ -96,12 +96,20 @@ padding: 0.5%;
    text-decoration-color: black;
    margin-left:70px;
    text-align: center;
-   padding-top: 30px;
+   
    font-size: 30px;
-background-image:url(https://img.freepik.com/free-vector/cinema-room-background_1017-8728.jpg?semt=ais_rp_progressive&w=740&q=80) ;
+
+
    filter: drop-shadow(10px 10px 20px rgba(218, 237, 230, 0.4));
    
 
+}
+.trapezoid>img{
+   height: 200px;
+   width: 550px;
+   object-fit: cover;
+   object-position: top centre;
+   z-index: 1;
 }
 
 .sec {
